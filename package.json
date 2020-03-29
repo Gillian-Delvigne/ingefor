@@ -1,0 +1,31 @@
+{
+  "name": "ingefor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index",
+  "private": true,
+  "dependencies": {
+    "@factor/core": "^1.0.0",
+    "@factor/plugin-notify": "^1.0.0",
+    "@factor/plugin-seo": "^1.0.0",
+    "@factor/plugin-sitemap": "^1.0.0",
+    "@factor/plugin-contact-form": "^1.0.0",
+    "@factor/plugin-storage-s3": "^1.0.0",
+    "@factor/theme-zeno": "^1.5.12"
+  },
+  "factor": {
+    "app": {
+      "name": "Ingénierie de formation",
+      "description": "Mon site web commercial et mon blog sur l'ingénierie de formation",
+      "url": "https://ingenieriedeformation.com",
+      "email": "gillian.delvigne@gmail.com"
+    },
+    "admins": [
+      "gillian.delvigne@gmail.com"
+    ],
+    "load": [
+      "app",
+      "server"
+    ]
+  }
+}
